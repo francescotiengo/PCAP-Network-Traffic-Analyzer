@@ -30,14 +30,33 @@ Run the analyzer with the PCAP file:
 
 ```bash
 python3 pcap_analyzer.py prova1.pcapng
+```
 
 ## Example Output
 
 The analyzer displays:
+- Total number of packets
+- Detected network protocols
+- Top source IP addresses
+- Top destination IP addresses
+- TCP ports
+- UDP ports
 
-Total number of packets
-Detected network protocols
-Top source IP addresses
-Top destination IP addresses
-TCP ports
-UDP ports
+## Project Files
+```bash
+PCAP-Network-Traffic-Analyzer/
+│
+├── README.md
+├── pcap_analyzer.py
+└── prova1.pcapng
+```
+## Tools Used
+- Kali Linux
+- Cisco
+- Wireshark
+- Python
+- Scapy
+   
+## Disclaimer
+This project is intended for educational purposes and network analysis
+within an authorized laboratory environment.
