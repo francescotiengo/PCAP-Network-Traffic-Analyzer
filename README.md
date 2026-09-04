@@ -30,3 +30,14 @@ Run the analyzer with the PCAP file:
 
 ```bash
 python3 pcap_analyzer.py prova1.pcapng
+
+## Example Output
+
+The analyzer displays:
+
+Total number of packets
+Detected network protocols
+Top source IP addresses
+Top destination IP addresses
+TCP ports
+UDP ports
